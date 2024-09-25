@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>contactForm</title>
 </head>
-<body>
-    
+
+<body style="background-color: rgb(230, 178, 178) ;">
+        <form>
+            <label for="FullName">Full Name:</label>
+            <input type="text" name="FullName" id="FullName" placeholder="Full Name" required> <br> <br>
+
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="Email"> <br> <br>
+
+            <label for="PhoneNumber"> Phone Number:</label>
+            <input type="tel" name="PhoneNumber" id="PhoneNumber" placeholder=" Phone Number"> <br> <br>
+
+            <label for="Subject">Subject:</label>
+            <input type="text" name="Subject" id="Subject" placeholder="Subject"> <br> <br>
+
+            <label for="Textarea">Message:</label> <br>
+            <textarea type="text" name="Textarea" id="Textarea" placeholder="Message"> </textarea> <br> <br>
+
+
+            <label for="Preferred Contact Method">Preferred Contact Method:</label> <br>
+
+
+            <label for="Email">Email</label>
+            <input type="radio" name="pref1" id="pref1" required> <br>
+
+            <label for="PhoneNumber">Phone</label>
+            <input type="radio" name="pref1" id="pref1" required> <br> <br>
+
+            <label for="sub">Subscribe To Update:</label>
+            <input type="checkbox" name="sub" id="sub" placeholder=""> <br> <br>
+
+            <label for="rt">Rating (1-10): </label> <br>
+            <input type="range" name="rt" id="rt" min="1" max="10"> <br> <br>
+
+            <label for="col">Favorite Color:</label>
+            <input type="color" name="col" id="col"> <br> <br>
+
+            <label for="dt">Date Of Visit:</label>
+            <input type="date" name="dt" id="dt"> <br> <br>
+
+            <input type="submit"> <br> <br>
+
+        </form>
+
+        <a href="./Page2.html" target="_blank" title="page2">Go To Page 2</a> <br>
 </body>
+
 </html>
